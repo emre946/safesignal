@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy
+scikit-learn>=1.3
+matplotlib
+# optional: LLM rewrite in 05_toolbox_talk.py --llm
+anthropic

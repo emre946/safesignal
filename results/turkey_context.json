@@ -1,0 +1,218 @@
+[
+  {
+    "country": "Türkiye",
+    "source": "SGK (4/a insured)",
+    "year": "2024",
+    "measure": "work_accidents",
+    "category": "total",
+    "value": 733646.0,
+    "url": "https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu"
+  },
+  {
+    "country": "Türkiye",
+    "source": "SGK (4/a insured)",
+    "year": "2025",
+    "measure": "work_accidents",
+    "category": "total",
+    "value": 766039.0,
+    "url": "https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu"
+  },
+  {
+    "country": "Türkiye",
+    "source": "SGK (4/a insured)",
+    "year": "2024",
+    "measure": "deaths",
+    "category": "total",
+    "value": 1897.0,
+    "url": "https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu"
+  },
+  {
+    "country": "Türkiye",
+    "source": "SGK (4/a insured)",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "total",
+    "value": 1931.0,
+    "url": "https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi (all workers incl. farmers)",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "total",
+    "value": 2105.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "sector: Industry",
+    "value": 691.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "sector: Construction",
+    "value": 521.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "sector: Services",
+    "value": 478.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "sector: Agriculture",
+    "value": 415.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Traffic / service vehicle",
+    "value": 466.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Crushing / collapse",
+    "value": 374.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Fall from height",
+    "value": 354.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Heart attack / stroke",
+    "value": 299.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Electrocution",
+    "value": 95.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Violence",
+    "value": 92.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "Türkiye",
+    "source": "İSİG Meclisi",
+    "year": "2025",
+    "measure": "deaths",
+    "category": "cause: Suicide",
+    "value": 89.0,
+    "url": "https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432"
+  },
+  {
+    "country": "United States",
+    "source": "BLS CFOI",
+    "year": "2024",
+    "measure": "deaths",
+    "category": "total",
+    "value": 5070.0,
+    "url": "https://www.bls.gov/opub/ted/2026/fatal-work-injuries-down-in-2024.htm"
+  },
+  {
+    "country": "United States",
+    "source": "BLS CFOI",
+    "year": "2024",
+    "measure": "rate_per_100k_FTE",
+    "category": "total",
+    "value": 3.3,
+    "url": "https://www.bls.gov/opub/ted/2026/fatal-work-injuries-down-in-2024.htm"
+  },
+  {
+    "country": "Great Britain",
+    "source": "HSE RIDDOR",
+    "year": "2025/26",
+    "measure": "deaths",
+    "category": "total",
+    "value": 126.0,
+    "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+  },
+  {
+    "country": "Great Britain",
+    "source": "HSE RIDDOR",
+    "year": "2025/26",
+    "measure": "deaths",
+    "category": "cause: Fall from height",
+    "value": 31.0,
+    "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+  },
+  {
+    "country": "Great Britain",
+    "source": "HSE RIDDOR",
+    "year": "2025/26",
+    "measure": "deaths",
+    "category": "cause: Struck by moving vehicle",
+    "value": 24.0,
+    "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+  },
+  {
+    "country": "Great Britain",
+    "source": "HSE RIDDOR",
+    "year": "2025/26",
+    "measure": "deaths",
+    "category": "cause: Struck by moving object",
+    "value": 21.0,
+    "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+  },
+  {
+    "country": "Great Britain",
+    "source": "HSE RIDDOR",
+    "year": "2025/26",
+    "measure": "deaths",
+    "category": "sector: Construction",
+    "value": 25.0,
+    "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+  },
+  {
+    "country": "Great Britain",
+    "source": "HSE RIDDOR",
+    "year": "2025/26",
+    "measure": "deaths",
+    "category": "sector: Agriculture",
+    "value": 22.0,
+    "url": "https://www.hse.gov.uk/statistics/fatals-overview.htm"
+  }
+]

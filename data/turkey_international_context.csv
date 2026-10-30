@@ -1,0 +1,25 @@
+country,source,year,measure,category,value,url
+Türkiye,SGK (4/a insured),2024,work_accidents,total,733646,https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu
+Türkiye,SGK (4/a insured),2025,work_accidents,total,766039,https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu
+Türkiye,SGK (4/a insured),2024,deaths,total,1897,https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu
+Türkiye,SGK (4/a insured),2025,deaths,total,1931,https://www.evrensel.net/yazi/99715/kucuk-is-yerlerinin-buyuk-olum-bilancosu
+Türkiye,İSİG Meclisi (all workers incl. farmers),2025,deaths,total,2105,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,sector: Industry,691,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,sector: Construction,521,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,sector: Services,478,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,sector: Agriculture,415,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Traffic / service vehicle,466,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Crushing / collapse,374,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Fall from height,354,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Heart attack / stroke,299,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Electrocution,95,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Violence,92,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+Türkiye,İSİG Meclisi,2025,deaths,cause: Suicide,89,https://bianet.org/haber/2025te-en-az-2-bin-105-isci-calisirken-oldu-315432
+United States,BLS CFOI,2024,deaths,total,5070,https://www.bls.gov/opub/ted/2026/fatal-work-injuries-down-in-2024.htm
+United States,BLS CFOI,2024,rate_per_100k_FTE,total,3.3,https://www.bls.gov/opub/ted/2026/fatal-work-injuries-down-in-2024.htm
+Great Britain,HSE RIDDOR,2025/26,deaths,total,126,https://www.hse.gov.uk/statistics/fatals-overview.htm
+Great Britain,HSE RIDDOR,2025/26,deaths,cause: Fall from height,31,https://www.hse.gov.uk/statistics/fatals-overview.htm
+Great Britain,HSE RIDDOR,2025/26,deaths,cause: Struck by moving vehicle,24,https://www.hse.gov.uk/statistics/fatals-overview.htm
+Great Britain,HSE RIDDOR,2025/26,deaths,cause: Struck by moving object,21,https://www.hse.gov.uk/statistics/fatals-overview.htm
+Great Britain,HSE RIDDOR,2025/26,deaths,sector: Construction,25,https://www.hse.gov.uk/statistics/fatals-overview.htm
+Great Britain,HSE RIDDOR,2025/26,deaths,sector: Agriculture,22,https://www.hse.gov.uk/statistics/fatals-overview.htm

@@ -1,0 +1,99 @@
+{
+  "raw_rows": 425,
+  "raw_cols": 11,
+  "missing_values_total": 0,
+  "duplicates_found": 7,
+  "clean_rows": 418,
+  "date_min": "2016-01-01",
+  "date_max": "2017-07-09",
+  "countries": 3,
+  "plants": 12,
+  "critical_risk_categories": 33,
+  "others_share_critical_risk": 54.8,
+  "accident_level_counts": {
+    "I": 309,
+    "II": 40,
+    "III": 31,
+    "IV": 30,
+    "V": 8,
+    "VI": 0
+  },
+  "potential_level_counts": {
+    "I": 45,
+    "II": 95,
+    "III": 106,
+    "IV": 141,
+    "V": 30,
+    "VI": 1
+  },
+  "sector_counts": {
+    "Mining": 237,
+    "Metals": 134,
+    "Others": 47
+  },
+  "country_counts": {
+    "Country_01": 248,
+    "Country_02": 129,
+    "Country_03": 41
+  },
+  "gender_counts": {
+    "Male": 396,
+    "Female": 22
+  },
+  "employee_type_counts": {
+    "Third Party": 185,
+    "Employee": 178,
+    "Third Party (Remote)": 55
+  },
+  "desc_words": {
+    "count": 418.0,
+    "mean": 65.1,
+    "std": 32.1,
+    "min": 16.0,
+    "25%": 40.0,
+    "50%": 60.0,
+    "75%": 83.0,
+    "max": 183.0
+  },
+  "share_level_I": 73.9,
+  "share_high_potential": 41.1,
+  "share_levelI_but_high_potential": 28.2,
+  "mean_severity_gap": 1.51,
+  "share_gap_ge2": 47.1,
+  "high_potential_by_sector_pct": {
+    "Metals": 26.1,
+    "Mining": 54.0,
+    "Others": 19.1
+  },
+  "high_potential_by_emp_pct": {
+    "Employee": 38.8,
+    "Third Party": 45.4,
+    "Third Party (Remote)": 34.5
+  },
+  "desc_words_by_potential": {
+    "0": 58.0,
+    "1": 75.1
+  },
+  "top_high_signal_words": [
+    "bar",
+    "block",
+    "drilling",
+    "hopper",
+    "workers",
+    "belt",
+    "both",
+    "driver",
+    "chain",
+    "diameter"
+  ],
+  "binary_confusion_logreg": [
+    [
+      185,
+      61
+    ],
+    [
+      67,
+      105
+    ]
+  ]
+}

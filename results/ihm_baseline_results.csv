@@ -1,0 +1,11 @@
+Task,Model,Accuracy,Macro-F1,Recall (high)
+Binary: high vs low potential,Majority baseline,0.589,0.37,0.0
+Binary: high vs low potential,TF-IDF + Complement NB,0.696,0.677,0.547
+Binary: high vs low potential,TF-IDF + Logistic Regression,0.694,0.682,0.61
+Binary: high vs low potential,TF-IDF + Linear SVM,0.694,0.682,0.61
+Binary: high vs low potential,TF-IDF + Random Forest,0.689,0.664,0.506
+Multi-class: potential level I-V,Majority baseline,0.337,0.101,
+Multi-class: potential level I-V,TF-IDF + Complement NB,0.44,0.427,
+Multi-class: potential level I-V,TF-IDF + Logistic Regression,0.435,0.437,
+Multi-class: potential level I-V,TF-IDF + Linear SVM,0.421,0.409,
+Multi-class: potential level I-V,TF-IDF + Random Forest,0.428,0.442,

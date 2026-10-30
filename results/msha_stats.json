@@ -1,0 +1,275 @@
+{
+  "rows_used": 56952,
+  "tier_counts": {
+    "0 Near-miss (no injury)": 5231,
+    "1 Minor": 15444,
+    "2 Lost time": 35404,
+    "3 Serious": 873
+  },
+  "pyramid": {
+    "Falling/Sliding/Rolling Materials": {
+      "0 Near-miss (no injury)": 3,
+      "1 Minor": 97,
+      "2 Lost time": 210,
+      "3 Serious": 23,
+      "Total": 333,
+      "Serious per 1,000 events": 69.1,
+      "Near-misses per serious event": 0.1
+    },
+    "Electrical": {
+      "0 Near-miss (no injury)": 52,
+      "1 Minor": 79,
+      "2 Lost time": 196,
+      "3 Serious": 18,
+      "Total": 345,
+      "Serious per 1,000 events": 52.2,
+      "Near-misses per serious event": 2.9
+    },
+    "Fall Of Face/Rib/Pillar/Side/Highwall": {
+      "0 Near-miss (no injury)": 28,
+      "1 Minor": 72,
+      "2 Lost time": 319,
+      "3 Serious": 21,
+      "Total": 440,
+      "Serious per 1,000 events": 47.7,
+      "Near-misses per serious event": 1.3
+    },
+    "Powered Haulage": {
+      "0 Near-miss (no injury)": 45,
+      "1 Minor": 851,
+      "2 Lost time": 3488,
+      "3 Serious": 208,
+      "Total": 4592,
+      "Serious per 1,000 events": 45.3,
+      "Near-misses per serious event": 0.2
+    },
+    "Machinery": {
+      "0 Near-miss (no injury)": 29,
+      "1 Minor": 2298,
+      "2 Lost time": 3555,
+      "3 Serious": 227,
+      "Total": 6109,
+      "Serious per 1,000 events": 37.2,
+      "Near-misses per serious event": 0.1
+    },
+    "Other": {
+      "0 Near-miss (no injury)": 3,
+      "1 Minor": 551,
+      "2 Lost time": 1044,
+      "3 Serious": 20,
+      "Total": 1618,
+      "Serious per 1,000 events": 12.4,
+      "Near-misses per serious event": 0.2
+    },
+    "Handling Of Materials": {
+      "0 Near-miss (no injury)": 1,
+      "1 Minor": 5566,
+      "2 Lost time": 11905,
+      "3 Serious": 220,
+      "Total": 17692,
+      "Serious per 1,000 events": 12.4,
+      "Near-misses per serious event": 0.0
+    },
+    "Exploding Vessels Under Pressure": {
+      "0 Near-miss (no injury)": 3,
+      "1 Minor": 118,
+      "2 Lost time": 286,
+      "3 Serious": 5,
+      "Total": 412,
+      "Serious per 1,000 events": 12.1,
+      "Near-misses per serious event": 0.6
+    },
+    "Fall Of Roof or Back": {
+      "0 Near-miss (no injury)": 2279,
+      "1 Minor": 422,
+      "2 Lost time": 954,
+      "3 Serious": 34,
+      "Total": 3689,
+      "Serious per 1,000 events": 9.2,
+      "Near-misses per serious event": 67.0
+    },
+    "Handtools (Nonpowered)": {
+      "0 Near-miss (no injury)": 1,
+      "1 Minor": 3177,
+      "2 Lost time": 3197,
+      "3 Serious": 45,
+      "Total": 6420,
+      "Serious per 1,000 events": 7.0,
+      "Near-misses per serious event": 0.0
+    },
+    "Slip or Fall Of Person": {
+      "0 Near-miss (no injury)": 0,
+      "1 Minor": 1743,
+      "2 Lost time": 8927,
+      "3 Serious": 39,
+      "Total": 10709,
+      "Serious per 1,000 events": 3.6,
+      "Near-misses per serious event": 0.0
+    },
+    "Fire": {
+      "0 Near-miss (no injury)": 791,
+      "1 Minor": 26,
+      "2 Lost time": 65,
+      "3 Serious": 2,
+      "Total": 884,
+      "Serious per 1,000 events": 2.3,
+      "Near-misses per serious event": 395.5
+    },
+    "Hoisting": {
+      "0 Near-miss (no injury)": 1333,
+      "1 Minor": 12,
+      "2 Lost time": 37,
+      "3 Serious": 3,
+      "Total": 1385,
+      "Serious per 1,000 events": 2.2,
+      "Near-misses per serious event": 444.3
+    },
+    "Entrapment": {
+      "0 Near-miss (no injury)": 351,
+      "1 Minor": 2,
+      "2 Lost time": 5,
+      "3 Serious": 0,
+      "Total": 358,
+      "Serious per 1,000 events": 0.0,
+      "Near-misses per serious event": null
+    },
+    "Stepping or Kneeling On Object": {
+      "0 Near-miss (no injury)": 1,
+      "1 Minor": 86,
+      "2 Lost time": 723,
+      "3 Serious": 0,
+      "Total": 810,
+      "Serious per 1,000 events": 0.0,
+      "Near-misses per serious event": null
+    },
+    "Striking or Bumping": {
+      "0 Near-miss (no injury)": 0,
+      "1 Minor": 293,
+      "2 Lost time": 320,
+      "3 Serious": 0,
+      "Total": 613,
+      "Serious per 1,000 events": 0.0,
+      "Near-misses per serious event": null
+    }
+  },
+  "serious_model": {
+    "train": 41376,
+    "test": 10345,
+    "serious_rate_test": 0.0169,
+    "roc_auc": 0.893,
+    "pr_auc": 0.209,
+    "pr_auc_random_baseline": 0.017,
+    "recall_at_0.5": 0.417,
+    "precision_at_0.5": 0.153
+  },
+  "top_serious_terms": [
+    "knuckle",
+    "stomach",
+    "fingers",
+    "finger",
+    "entangled",
+    "electrocuted",
+    "engulfed",
+    "abdomen",
+    "counterweight",
+    "highwall",
+    "roof",
+    "crushed",
+    "crushing",
+    "belly",
+    "elbow wrist",
+    "pulley",
+    "right thumb",
+    "auger",
+    "accident",
+    "screw",
+    "pain abdomen",
+    "near",
+    "severe",
+    "intersection",
+    "pit"
+  ],
+  "top_minor_terms": [
+    "shoulder",
+    "laceration",
+    "sutures",
+    "hit",
+    "pain",
+    "ankle",
+    "knee",
+    "strain",
+    "slipped",
+    "cut",
+    "neck",
+    "stepped",
+    "broken",
+    "eye",
+    "restrictions"
+  ],
+  "near_miss_scored": 5231,
+  "flag_threshold": 0.9,
+  "near_miss_flagged": 497,
+  "near_miss_flagged_share": 9.5,
+  "flagged_by_mechanism": {
+    "Fall Of Roof or Back": 445,
+    "Fire": 16,
+    "Hoisting": 11,
+    "Entrapment": 8,
+    "Fall Of Face/Rib/Pillar/Side/Highwall": 6,
+    "Inundation": 5,
+    "Electrical": 3,
+    "Powered Haulage": 3
+  },
+  "example_flagged_near_misses": [
+    {
+      "p": 0.99,
+      "mechanism": "Fall Of Roof or Back",
+      "text": "The calcite joint running diagonally through the intersection. Area blocked against entry prior to roof fall."
+    },
+    {
+      "p": 0.99,
+      "mechanism": "Fall Of Roof or Back",
+      "text": "An unintentional roof fall was discovered at 1R2LMS entry #1 at maker 62+55 intersection."
+    },
+    {
+      "p": 0.97,
+      "mechanism": "Entrapment",
+      "text": " On 10/8/2025, a D10 Dozer inadvertently entered an underground feeder opening on our raw coal stockpile, trapping the employee inside the dozer."
+    },
+    {
+      "p": 0.96,
+      "mechanism": "Fire",
+      "text": "The Caterpillar 992K caught on fire in the Winifrede pit at approximately 1:15 AM and was engulfed in seconds. The operator jumped from the loader and received no injuries. "
+    },
+    {
+      "p": 0.96,
+      "mechanism": "Hoisting",
+      "text": "The 630 counterweight steel rope was discovered to have a small area of distortion near the end closest to the counterweight. The hoist was removed from service while repairs were made."
+    },
+    {
+      "p": 0.96,
+      "mechanism": "Hoisting",
+      "text": "The 630 counterweight steel rope was discovered to have a small area of distortion near the end closest to the counterweight. The hoist was removed from service while repairs were made. "
+    },
+    {
+      "p": 0.95,
+      "mechanism": "Fall Of Face/Rib/Pillar/Side/Highwall",
+      "text": "A portion of the highwall over the number #1 fan portal entry separated from the highwall and rolled to the ground. There were no miners exposed. There were no injuries. The MSHA hotline number was called. "
+    },
+    {
+      "p": 0.95,
+      "mechanism": "Fire",
+      "text": "At Approximately 12:55pm the substation that supplies power to the Coal Fork Portal caught on fire.  The cause was unknown."
+    },
+    {
+      "p": 0.94,
+      "mechanism": "Powered Haulage",
+      "text": "No injury - near miss accident - Employee was dumping load out of 785B truck - pulled out with the box up & made contact with overhead power lines. "
+    },
+    {
+      "p": 0.93,
+      "mechanism": "Fall Of Face/Rib/Pillar/Side/Highwall",
+      "text": "On 12-21-2020 at approximately 1:19pm the 5400 southwest upper highwall failed causing a slough of 10 benches and approximately 1.06 million tons.  No injury or loss occurred during this incident."
+    }
+  ]
+}

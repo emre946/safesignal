@@ -1,0 +1,147 @@
+{
+  "rows_raw": 21578,
+  "rows_clean": 21573,
+  "date_min": "2015-01-01",
+  "date_max": "2017-02-28",
+  "states": 56,
+  "amputation_share": 26.8,
+  "hospitalized_share": 80.1,
+  "words_mean": 32.5,
+  "sector_counts": {
+    "Manufacturing": 7340,
+    "Construction": 3834,
+    "Transport & warehousing": 1876,
+    "Retail trade": 1543,
+    "Wholesale trade": 1171,
+    "Admin & waste services": 1148,
+    "Health care": 1021,
+    "Mining & oil/gas": 626,
+    "Accommodation & food": 454,
+    "Agriculture": 396
+  },
+  "event_group_counts": {
+    "Contact with objects / equipment": 10123,
+    "Falls, slips, trips": 6514,
+    "Harmful exposure (heat, electricity, chemicals)": 1830,
+    "Transportation": 1654,
+    "Violence / animals": 440,
+    "Overexertion": 396,
+    "Fire / explosion": 351,
+    "Other": 265
+  },
+  "heat_cases": 556,
+  "sector_mechanism_share": {
+    "Mining & oil/gas": {
+      "Contact with objects / equipment": 58.5,
+      "Falls, slips, trips": 18.4,
+      "Harmful exposure (heat, electricity, chemicals)": 8.6,
+      "Transportation": 2.9,
+      "Overexertion": 0.6,
+      "Other": 11.0
+    },
+    "Health care": {
+      "Contact with objects / equipment": 12.0,
+      "Falls, slips, trips": 59.0,
+      "Harmful exposure (heat, electricity, chemicals)": 10.8,
+      "Transportation": 2.3,
+      "Overexertion": 7.2,
+      "Other": 8.7
+    },
+    "Admin & waste services": {
+      "Contact with objects / equipment": 40.2,
+      "Falls, slips, trips": 30.9,
+      "Harmful exposure (heat, electricity, chemicals)": 10.0,
+      "Transportation": 12.1,
+      "Overexertion": 1.7,
+      "Other": 5.1
+    },
+    "Wholesale trade": {
+      "Contact with objects / equipment": 50.4,
+      "Falls, slips, trips": 25.0,
+      "Harmful exposure (heat, electricity, chemicals)": 5.5,
+      "Transportation": 13.6,
+      "Overexertion": 1.5,
+      "Other": 4.0
+    },
+    "Retail trade": {
+      "Contact with objects / equipment": 34.0,
+      "Falls, slips, trips": 42.8,
+      "Harmful exposure (heat, electricity, chemicals)": 4.5,
+      "Transportation": 10.2,
+      "Overexertion": 2.6,
+      "Other": 6.0
+    },
+    "Transport & warehousing": {
+      "Contact with objects / equipment": 28.0,
+      "Falls, slips, trips": 36.9,
+      "Harmful exposure (heat, electricity, chemicals)": 8.6,
+      "Transportation": 18.7,
+      "Overexertion": 3.0,
+      "Other": 4.9
+    },
+    "Construction": {
+      "Contact with objects / equipment": 39.6,
+      "Falls, slips, trips": 40.8,
+      "Harmful exposure (heat, electricity, chemicals)": 9.9,
+      "Transportation": 5.7,
+      "Overexertion": 0.6,
+      "Other": 3.4
+    },
+    "Manufacturing": {
+      "Contact with objects / equipment": 67.5,
+      "Falls, slips, trips": 15.7,
+      "Harmful exposure (heat, electricity, chemicals)": 7.9,
+      "Transportation": 4.7,
+      "Overexertion": 1.1,
+      "Other": 3.0
+    }
+  },
+  "heat_rate_per_1000_by_month": {
+    "All other sectors": {
+      "1": 0.0,
+      "2": 0.5,
+      "3": 0.8,
+      "4": 3.2,
+      "5": 9.7,
+      "6": 54.0,
+      "7": 112.9,
+      "8": 74.2,
+      "9": 28.4,
+      "10": 3.1,
+      "11": 1.6,
+      "12": 0.0
+    },
+    "Construction + agriculture": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 13.4,
+      "5": 20.8,
+      "6": 57.7,
+      "7": 101.7,
+      "8": 92.3,
+      "9": 68.5,
+      "10": 2.7,
+      "11": 0.0,
+      "12": 0.0
+    }
+  },
+  "heat_share_summer_JJA": 81.7,
+  "heat_share_constr_agri": 24.6,
+  "constr_agri_share_of_all_reports": 19.6,
+  "mechanism_clf": {
+    "test_size": 4315,
+    "accuracy": 0.896,
+    "macro_f1": 0.785,
+    "per_class_f1": {
+      "Contact with objects / equipment": 0.928,
+      "Falls, slips, trips": 0.927,
+      "Fire / explosion": 0.832,
+      "Harmful exposure (heat, electricity, chemicals)": 0.89,
+      "Other": 0.373,
+      "Overexertion": 0.732,
+      "Transportation": 0.77,
+      "Violence / animals": 0.828
+    }
+  }
+}
