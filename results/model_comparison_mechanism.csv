@@ -1,0 +1,6 @@
+Task,Approach,Accuracy,Macro-F1,Train s,ms / report
+"A Mechanism (OSHA, 8 classes)",1 Majority baseline,0.469,0.08,0.0,0.0
+"A Mechanism (OSHA, 8 classes)",2 TF-IDF words + LogReg,0.896,0.785,1.2,0.0
+"A Mechanism (OSHA, 8 classes)",3 TF-IDF characters + linear SVM,0.907,0.803,1.6,0.001
+"A Mechanism (OSHA, 8 classes)",4 Word embeddings (spaCy) + LogReg,0.727,0.566,1.9,0.0
+"A Mechanism (OSHA, 8 classes)",5 TF-IDF + neural net (MLP),0.903,0.746,51.4,0.005

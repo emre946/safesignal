@@ -135,12 +135,16 @@ def load():
     return df
 
 
-def build(df, sector, lang="en", month=None, n_hazards=3):
+def build(df, sector, lang="en", month=None, n_hazards=3, focus=None, hot_day=False):
     L = T[lang]
     s = df[df.Sector == sector]
     if s.empty:
         raise SystemExit(f"Unknown sector '{sector}'. Use --list.")
     top = s.Hazard.value_counts().head(n_hazards).index.tolist()
+    if focus and focus in HAZARDS:  # the mechanism of the report being analysed goes first
+        top = [focus] + [k for k in top if k != focus][: n_hazards - 1]
+    if hot_day and "heat" not in top:
+        top.append("heat")
     outdoor = sector in ("Construction", "Agriculture")
     if month in (6, 7, 8, 9) and outdoor and "heat" not in top:
         top.append("heat")

@@ -1,0 +1,6 @@
+Task,Approach,ROC-AUC,PR-AUC,Recall @ top 10%,Precision @ top 10%,Train s,ms / report
+"B Precursor (MSHA, serious vs not)",1 Base rate (random),0.5,0.017,0.08,0.014,0.0,0.0
+"B Precursor (MSHA, serious vs not)",2 TF-IDF words + LogReg,0.89,0.2,0.646,0.109,0.2,0.0
+"B Precursor (MSHA, serious vs not)",3 TF-IDF characters + linear SVM,0.887,0.205,0.629,0.106,5.2,0.002
+"B Precursor (MSHA, serious vs not)",4 Word embeddings (spaCy) + LogReg,0.793,0.081,0.451,0.076,0.8,0.0
+"B Precursor (MSHA, serious vs not)",5 TF-IDF + neural net (MLP),0.883,0.198,0.611,0.103,112.7,0.003

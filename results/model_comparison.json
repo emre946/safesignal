@@ -1,0 +1,101 @@
+{
+  "mechanism": [
+    {
+      "Task": "A Mechanism (OSHA, 8 classes)",
+      "Approach": "1 Majority baseline",
+      "Accuracy": 0.469,
+      "Macro-F1": 0.08,
+      "Train s": 0.0,
+      "ms / report": 0.0
+    },
+    {
+      "Task": "A Mechanism (OSHA, 8 classes)",
+      "Approach": "2 TF-IDF words + LogReg",
+      "Accuracy": 0.896,
+      "Macro-F1": 0.785,
+      "Train s": 1.2,
+      "ms / report": 0.0
+    },
+    {
+      "Task": "A Mechanism (OSHA, 8 classes)",
+      "Approach": "3 TF-IDF characters + linear SVM",
+      "Accuracy": 0.907,
+      "Macro-F1": 0.803,
+      "Train s": 1.6,
+      "ms / report": 0.001
+    },
+    {
+      "Task": "A Mechanism (OSHA, 8 classes)",
+      "Approach": "4 Word embeddings (spaCy) + LogReg",
+      "Accuracy": 0.727,
+      "Macro-F1": 0.566,
+      "Train s": 1.9,
+      "ms / report": 0.0
+    },
+    {
+      "Task": "A Mechanism (OSHA, 8 classes)",
+      "Approach": "5 TF-IDF + neural net (MLP)",
+      "Accuracy": 0.903,
+      "Macro-F1": 0.746,
+      "Train s": 51.4,
+      "ms / report": 0.005
+    }
+  ],
+  "precursor": [
+    {
+      "Task": "B Precursor (MSHA, serious vs not)",
+      "Approach": "1 Base rate (random)",
+      "ROC-AUC": 0.5,
+      "PR-AUC": 0.017,
+      "Recall @ top 10%": 0.08,
+      "Precision @ top 10%": 0.014,
+      "Train s": 0.0,
+      "ms / report": 0.0
+    },
+    {
+      "Task": "B Precursor (MSHA, serious vs not)",
+      "Approach": "2 TF-IDF words + LogReg",
+      "ROC-AUC": 0.89,
+      "PR-AUC": 0.2,
+      "Recall @ top 10%": 0.646,
+      "Precision @ top 10%": 0.109,
+      "Train s": 0.2,
+      "ms / report": 0.0
+    },
+    {
+      "Task": "B Precursor (MSHA, serious vs not)",
+      "Approach": "3 TF-IDF characters + linear SVM",
+      "ROC-AUC": 0.887,
+      "PR-AUC": 0.205,
+      "Recall @ top 10%": 0.629,
+      "Precision @ top 10%": 0.106,
+      "Train s": 5.2,
+      "ms / report": 0.002
+    },
+    {
+      "Task": "B Precursor (MSHA, serious vs not)",
+      "Approach": "4 Word embeddings (spaCy) + LogReg",
+      "ROC-AUC": 0.793,
+      "PR-AUC": 0.081,
+      "Recall @ top 10%": 0.451,
+      "Precision @ top 10%": 0.076,
+      "Train s": 0.8,
+      "ms / report": 0.0
+    },
+    {
+      "Task": "B Precursor (MSHA, serious vs not)",
+      "Approach": "5 TF-IDF + neural net (MLP)",
+      "ROC-AUC": 0.883,
+      "PR-AUC": 0.198,
+      "Recall @ top 10%": 0.611,
+      "Precision @ top 10%": 0.103,
+      "Train s": 112.7,
+      "ms / report": 0.003
+    }
+  ],
+  "test_sizes": {
+    "mechanism": 4315,
+    "precursor": 10345,
+    "precursor_serious_rate": 0.0169
+  }
+}

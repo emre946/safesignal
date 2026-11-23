@@ -1,0 +1,59 @@
+{
+  "cells": 172,
+  "reports_covered": 17686,
+  "share_covered": 82.3,
+  "period": [
+    "2015-01-01",
+    "2017-02-28"
+  ],
+  "rates": {
+    "<10\u00b0C": {
+      "cell_days": 26910,
+      "outdoor_per_1000_days": 18.88,
+      "other_per_1000_days": 116.98,
+      "heat_cases_per_1000_days": 0.04,
+      "outdoor_vs_20_25": 0.78,
+      "other_vs_20_25": 1.27
+    },
+    "10-20": {
+      "cell_days": 32675,
+      "outdoor_per_1000_days": 20.78,
+      "other_per_1000_days": 96.74,
+      "heat_cases_per_1000_days": 0.03,
+      "outdoor_vs_20_25": 0.86,
+      "other_vs_20_25": 1.05
+    },
+    "20-25": {
+      "cell_days": 24780,
+      "outdoor_per_1000_days": 24.29,
+      "other_per_1000_days": 92.29,
+      "heat_cases_per_1000_days": 0.2,
+      "outdoor_vs_20_25": 1.0,
+      "other_vs_20_25": 1.0
+    },
+    "25-30": {
+      "cell_days": 29411,
+      "outdoor_per_1000_days": 29.24,
+      "other_per_1000_days": 106.93,
+      "heat_cases_per_1000_days": 2.82,
+      "outdoor_vs_20_25": 1.2,
+      "other_vs_20_25": 1.16
+    },
+    "30-35": {
+      "cell_days": 18933,
+      "outdoor_per_1000_days": 36.07,
+      "other_per_1000_days": 113.72,
+      "heat_cases_per_1000_days": 14.52,
+      "outdoor_vs_20_25": 1.48,
+      "other_vs_20_25": 1.23
+    },
+    "\u226535\u00b0C": {
+      "cell_days": 3171,
+      "outdoor_per_1000_days": 32.48,
+      "other_per_1000_days": 112.58,
+      "heat_cases_per_1000_days": 31.54,
+      "outdoor_vs_20_25": 1.34,
+      "other_vs_20_25": 1.22
+    }
+  }
+}

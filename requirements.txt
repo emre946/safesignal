@@ -2,5 +2,9 @@ pandas>=2.0
 numpy
 scikit-learn>=1.3
 matplotlib
+joblib
+streamlit>=1.35
+# only for src/08_model_comparison.py (pre-trained word vectors):
+#   pip install spacy && python -m spacy download en_core_web_md
 # optional: LLM rewrite in 05_toolbox_talk.py --llm
-anthropic
+# anthropic
